@@ -65,6 +65,8 @@ class _PaginatedListViewExampleState extends State<PaginatedListViewExample> {
   @override
   Widget build(BuildContext context) {
     return PaginatedListView(
+      refreshIndicatorBackgroundColor: Colors.white,
+      refreshIndicatorColor: Colors.blue,
       pageSize: PaginatedListViewExample.PAGE_SIZE,
 //      mutable: true,
       showRefreshIndicator: true,
@@ -104,6 +106,8 @@ class PaginatedListViewEmptyExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return PaginatedListView(
+      refreshIndicatorBackgroundColor: Colors.white,
+      refreshIndicatorColor: Colors.blue,
       pageSize: PAGE_SIZE,
 //      mutable: true,
       showRefreshIndicator: true,
